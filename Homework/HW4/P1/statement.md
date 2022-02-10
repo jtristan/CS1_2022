@@ -1,10 +1,10 @@
-Text that introduces the problem.
+Sum all numbers up to n, including n, that are multiples of 4
 
 <ul>
 <li>INPUT FORMAT (input arrives from the terminal / stdin):<br>
-Explain the content of the input file, line by line
+An integer n
 <li>OUTPUT FORMAT (print output to the terminal / stdout):<br>
-Explain the content of the output
+An integer
 <li><a href='input.txt'>SAMPLE INPUT</a>
 <li><a href='output.txt'>SAMPLE OUTPUT</a>
 </ul>
