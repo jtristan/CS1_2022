@@ -1,4 +1,4 @@
-Sum all numbers up to n, including n, that are multiples of 4
+Given an integer n greater or equal to 0, compute the sum of all the integers between 0 and n (included) that are multiple of 4.
 
 <ul>
 <li>INPUT FORMAT (input arrives from the terminal / stdin):<br>
