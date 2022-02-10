@@ -5,7 +5,7 @@
 <li> run: git pull
 <li> Run: bash initialize.sh
 <li> Implement your solution in the existing python files
-<li> When you are done with a problem, upload it on Canvas
+<li> When you are done with a problem, upload it on Canvas in the respective assignment (e.g., your solution to Part 1 should be submitted under 'Assignment 4 Part 1' in Canvas, your solution to Part 2 under 'Assignment 4 Part 2', etc.).
 </ul>
 
 Some reminders and things to note:<br>
