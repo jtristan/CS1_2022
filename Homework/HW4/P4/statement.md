@@ -1,10 +1,10 @@
-Given an array of integers A, compute if A has at least 3 positive integers.<br>
+Given an array of integers A, compute whether A has 3 or more positive entries.<br>
 
 Example: consider A = [-5, -7, -10, -27, -2] <br>
-The output should be False.<br>
+The output should be False, as A contains 0 positive entries.<br>
 
 Example 2: consider A = [5, 7, 10, 27, -2]<br>
-The output should be True.
+The output should be True, as A contains 4 positive entries.
 
 <ul>
 <li>INPUT FORMAT (input arrives from the terminal / stdin):<br>
