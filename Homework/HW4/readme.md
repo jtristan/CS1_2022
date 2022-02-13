@@ -2,9 +2,8 @@
 <li> Start Jupyter Lab
 <li> Start a terminal
 <li> Go to CS1_2022
-<li> run: git pull
 <li> Run: bash initialize.sh
-<li> Implement your solution in the existing Python files (make sure it passes the automated test!)
+<li> Implement your solutions in the newly created Python files (make sure they pass the automated tests!)
 <li> When you are done with a problem, upload it on Canvas in the respective assignment.
   <ul>
   <li> Part 1: https://bostoncollege.instructure.com/courses/1632198/assignments/7082477 
