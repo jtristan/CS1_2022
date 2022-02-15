@@ -1,6 +1,6 @@
 Given a sorted list of integers, compute the smallest difference between two numbers in that list.
 
-Example: consider the input list [2, 5, 6, 10].
+Example: consider A = [2, 5, 6, 10].
 The output should be 1.
 
 • INPUT FORMAT (input arrives from the terminal / stdin):
