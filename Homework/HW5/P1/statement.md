@@ -12,6 +12,7 @@ The output should be 1.
 <li>OUTPUT FORMAT (print output to the terminal / stdout):<br>
  <ul>
     <li> Print a single number, the smallest distance.
+ </ul>
 <li><a href='input.txt'>SAMPLE INPUT</a>
 <li><a href='output.txt'>SAMPLE OUTPUT</a>
 </ul>
