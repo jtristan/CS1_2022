@@ -5,7 +5,8 @@ The output should be
 [3, 7]
 [2, 4]
 
-<ul>Input format (input arrives from the terminal / stdin):<br>
+<ul>
+<li>Input format (input arrives from the terminal / stdin):<br>
   <ul>
     <li>The first line is a single integer n, the length of the input list
     <li>The next n lines are the contents of the input list.
