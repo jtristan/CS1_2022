@@ -10,10 +10,11 @@ The output should be
     <li>The first line is a single integer n, the length of the input list
     <li>The next n lines are the contents of the input list.
   </ul>
-<ul>Output format (print output to the terminal / stdout):<br>
+<li>Output format (print output to the terminal / stdout):<br>
   <ul>
     <li>Print on the first the list of odd numbers.
     <li>Print on the second line the list of even numbers.
+  </ul>
 <li><a href='input.txt'>SAMPLE INPUT</a>
 <li><a href='output.txt'>SAMPLE OUTPUT</a>
 </ul>
