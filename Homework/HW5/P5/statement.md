@@ -5,14 +5,17 @@ Given the number of stalls and a list of occupied stall numbers, find the stall 
 Example: consider num_stalls = 10, occupied_stalls = [1, 2, 8].
 The output should be 5.
 
-• INPUT FORMAT (input arrives from the terminal / stdin):
-  • The first line is a single integer n, the number of stalls
-  • The second line is m, the length of the list of occupied stalls.
-  • The next m lines are the contents of the list of occupied stalls.
-
-• OUTPUT FORMAT (print output to the terminal / stdout):
-  • Print a single number which is the stall number in which the horse should be put in.
-
-• SAMPLE INPUT
-
-• SAMPLE OUTPUT
+<ul>
+<li>INPUT FORMAT (input arrives from the terminal / stdin):<br>
+  <ul>
+    <li>The first line is a single integer n, the number of stalls
+    <li>The second line is m, the length of the list of occupied stalls.
+    <li>The next m lines are the contents of the list of occupied stalls.
+  </ul>
+<li>OUTPUT FORMAT (print output to the terminal / stdout):<br>
+  <ul>
+    <li>Print a single number which is the stall number in which the horse should be put in.
+  </ul>
+<li><a href='input.txt'>SAMPLE INPUT</a>
+<li><a href='output.txt'>SAMPLE OUTPUT</a>
+</ul>
