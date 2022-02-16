@@ -12,7 +12,9 @@ The output should be [1, 2, 3, 4, 5, 6].
     <li>The next m lines are the contents of L2.
   </ul>
 <li>OUTPUT FORMAT (print output to the terminal / stdout):<br>
+  <ul>
     <li>Print the merged list.
+  </ul>
 
 <li><a href='input.txt'>SAMPLE INPUT</a>
 <li><a href='output.txt'>SAMPLE OUTPUT</a>
