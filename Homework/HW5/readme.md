@@ -1,7 +1,7 @@
 <ul>
 <li> Start Jupyter Lab
 <li> Start a terminal
-Run: `cd CS1_2022/Homework/HW5`
+<li> Run: `cd CS1_2022/Homework/HW5`
 <li> Run: `bash initialize.sh`
 <li> Implement your solutions in the newly created Python files (make sure they pass the automated tests!)
 <li> When you are done with a problem, upload each Python file on Canvas in the respective assignment.
