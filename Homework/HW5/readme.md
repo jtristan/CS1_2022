@@ -17,7 +17,7 @@
 Some things to note:<br>
 
 <ul>
-<li> You are starting off with empty Python files this time! You will choose how to structure the code that reads in the input (as per the problem specification), computes the solution, and prints <b>only</b> the solution.
+<li> You are starting off with empty Python. You will choose how to structure the code that reads in the input (as per the problem specification), computes the solution, and prints <b>only</b> the solution.
   <ul>
   <li> Your program should be designed to read input line-by-line from a .txt file, as discussed in class and in the problem statement. 
   <li> Your program should print the solution to the problem, and nothing else.
