@@ -4,6 +4,9 @@
 <li> Run: `cd CS1_2022/Homework/HW5`
 <li> Run: `bash initialize.sh`
 <li> Implement your solutions in the newly created Python files (make sure they pass the automated tests!)
+  <ul>
+  <li> Run an automated test from the terminal via `bash check.sh', after `cd'ing into a problem's folder
+  </ul>
 <li> When you are done with a problem, upload each Python file on Canvas in the respective assignment.
   <ul>
   <li> Part 1: https://bostoncollege.instructure.com/courses/1632198/assignments/7082478 
