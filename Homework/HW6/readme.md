@@ -4,7 +4,7 @@
 	<li> Start a Terminal</li>
 	<li> Run: <code>cd CS1_2022/Homework/HW6</code></li>
 	<li> Run: <code>bash initialize.sh</code></li>
-	<li> Implement your solutions in the newly created Python files. Make sure they pass the automated test, by using command <code> bash check.sh</code></li>
+	<li> Implement your solutions in the newly created Python files.</li>
 	<li> When you are done with a problem, upload it on canvas in the respective assignment
 		<ul>
 		<li> Part 1</li>
@@ -32,5 +32,5 @@
 			<li>Your program should print the solution to the problem, and **nothing else.**</li>
 		</ul>
 	</li>
-	<li>We have provided example inputs and ouputs in the problem statements to demonstrate the desired behavior. We have also provided small automated tests check.sh in each problem file that you can run via `bash check.sh` in the terminal.</li>
+	<li>We have provided example inputs and ouputs in the problem statements to demonstrate the desired behavior. We have also provided small automated tests check.sh in each problem file that you can run via <code>bash check.sh</code> in the terminal.</li>
 </ul>
