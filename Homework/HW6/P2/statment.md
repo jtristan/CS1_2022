@@ -1,4 +1,7 @@
-### Problem 2
+### Problem 2:
+#### 2 Points
+
+---
 Define a function which reads a string from input, call this <code>word</code>, and prints each anagram of <code>word</code> found in the list *Scrabble dictionary*. Make sure to only **print one word per line.**
 ###### Note:
 An ***anagram*** of a word is another word that you get by scrambling the letters of the original word.<br>

@@ -19,7 +19,7 @@
 #### Things to Note
 
 <ul>
-	<li> You will need this code to access the *Scrabble word list* as a python list
+	<li> You will need this code to access the *Scrabble word list* as a python list for Problem 1 and 2
 		<pre class="brush: python">
 		def getwordlist():
 		    f=open('../twl06.txt')

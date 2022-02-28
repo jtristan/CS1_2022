@@ -1,4 +1,7 @@
-#### Problem 1
+### Problem 1:
+#### 2 Points
+
+---
  The following question is about words in the *Scrabble dictionary* word list.
 
 Define a function which reads an integer from input, call this <code>n</code>. The function should do the following for the corresponding value of <code>n</code>: (Make sure to only **print one word per line.**)

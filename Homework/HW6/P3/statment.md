@@ -1,9 +1,27 @@
-### Problem 3
-Define a function to search for the index of some element <code>x</code> in a sorted array <code>A</code> using the method of **binary search**, with time complexity <img src="https://render.githubusercontent.com/render/math?math=O(\text{log}_2n)"/>. The function should return the index of the element or <code>-1</code> if the element was not found.
+### Problem 3:
+#### 3 Points
 
-First read from input the integer <code>x</code>, which will be the element to search for. Next read the integer <code>n</code> which is the number of elements in array <code>A</code>. Read the next **n** integers from input to make the array.
+---
+Define a function to search for the index of some element <code>x</code> in a sorted array of distinct elements <code>A</code>, using the method of **binary search** with time complexity <img src="https://render.githubusercontent.com/render/math?math=O(\text{log}_2n)"/>. 
+
+The function should print the index of <code>x</code>, or <code>-1</code> if the value does not exist in the list. Your function will be graded based on the correctness of your output and the speed of its execution.
 
 ###### Examples:
-If <code>A = [ 3, 5, 10, 13, 14, 15, 18, 23, 28 ]</code> and <code>x = 23</code> your solution should return <code>7</code>.
+- Consider <code>A = [ 3, 5, 10, 13, 14, 15, 18, 23, 28 ]</code> and <code>x = 23</code> the output should be:
+<code>7</code>
 
-If <code>A = [ 3, 5, 10, 13, 14, 15, 18, 23, 28 ]</code> and <code>x = 24</code> your solution should return <code>-1</code>, as <code>x</code> does not exist in <code>A</code>
+- Consider <code>A = [ 3, 5, 10, 13, 14, 15, 18, 23, 28 ]</code> and <code>x = 24</code> the output should be <code>-1</code>.
+
+###### Input Format (input arrives from terminal / stdin):
+
+- The first line is an integer <code>x</code>, the value to search for.
+- The second line is an integer <code>n</code>, the number of elements in the array.
+- The next **n**-lines are integers, making up the array <code>A</code>.
+
+###### Output Format (output to terminal / stdout):
+
+- Print a single integer, the index of <code>x</code> or <code>-1</code> if <code>x</code> could not be found.
+
+[SAMPLE INPUT](input.txt)
+
+[SAMPLE OUTPUT](output.txt)
