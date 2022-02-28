@@ -15,6 +15,7 @@
 		</ul>
 	</li>
 </ul>
+
 #### Things to Note
 
 <ul>
