@@ -19,8 +19,9 @@
 
 <ul>
 	<li> You will need this code to access the *Scrabble word list* as a python list
-		<pre class="brush: python">def getwordlist():
-				f=open('../twl06.txt')
+		<pre class="brush: python">
+		def getwordlist():
+		    f=open('../twl06.txt')
 		    return [t[:-1] for t in f]
 		</pre>
 	</li>
