@@ -1,5 +1,5 @@
 ### Problem 3
-Define a function to search for the index of some element <code>x</code> in a sorted array <code>A</code> using the method of **binary search**, with time complexity - <img src="https://latex.codecogs.com/gif.latex?O(\text{log}_2n)"/>$. The function should return the index of the element or <code>-1</code> if the element was not found.
+Define a function to search for the index of some element <code>x</code> in a sorted array <code>A</code> using the method of **binary search**, with time complexity <img src="https://render.githubusercontent.com/render/math?math=O(\text{log}_2n)"/>. The function should return the index of the element or <code>-1</code> if the element was not found.
 
 First read from input the integer <code>x</code>, which will be the element to search for. Next read the integer <code>n</code> which is the number of elements in array <code>A</code>. Read the next **n** integers from input to make the array.
 
