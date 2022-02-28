@@ -10,4 +10,4 @@ Example: 'regal' is an anagram of 'large', 'lager', and 'glare'
 
 
 ###### Example:
-<code>find_anagrams()</code> for word <code>eat</code> should print:<code><br>ate<br>eat<br>eta<br>tae<br>tea</code>
+<code>find_anagrams()</code> for word <code>eat</code> should print:<br><code>ate</code><br><code>eat</code><br><code>eta</code><br><code>tae</code><br><code>tea</code>
