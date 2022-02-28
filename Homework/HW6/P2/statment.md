@@ -9,7 +9,7 @@ An ***anagram*** of a word is another word that you get by scrambling the letter
 Example: 'regal' is an anagram of 'large', 'lager', and 'glare'
 
 ###### Hints
--  Sort the string <code>word</code> by using the function <code>''.join(sorted(word))</code>. <code>sorted</code> with return a list of the letters in alphabetical order. <code>join</code> converts the character list into a string.
+-  Sort the string <code>word</code> by using the function <code>''.join(sorted(word))</code>. <code>sorted</code> will return a list of the letters in alphabetical order. <code>join</code> converts the character list into a string.
 -  Traverse the *Scrabble dictionary*, and print all the words that have a sorted version equal to the sorted version of <code>word</code>.
 
 ###### Example:
