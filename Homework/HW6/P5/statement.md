@@ -1,5 +1,5 @@
 ### Problem 5:
-#### Bonus 2 Points
+#### 2 Points (Bonus)
 
 ---
 
