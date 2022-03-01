@@ -4,7 +4,7 @@
 ---
 Define a function to search for the index of some element <code>x</code> in a sorted array of distinct elements <code>A</code>, using the method of **binary search** with time complexity <img src="https://render.githubusercontent.com/render/math?math=O(\text{log}_2n)"/>. 
 
-The function should print the index of <code>x</code>, or <code>-1</code> if the value does not exist in the list. Your function will be graded based on the correctness of your output and the speed of its execution.
+The function should print the index of <code>x</code>, or <code>-1</code> if the value does not exist in the list. If your function is in not O(Log N) it will be marked as incorrect.
 
 ###### Examples:
 - Consider <code>A = [ 3, 5, 10, 13, 14, 15, 18, 23, 28 ]</code> and <code>x = 23</code> the output should be:

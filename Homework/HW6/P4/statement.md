@@ -3,7 +3,7 @@
 
 ---
 
-Define a function that will sort a list of integers <code>A</code> using the **insertion sort method**. Sort low to high if the integer <code>x == 0</code> and sort high to low if  <code>x == 1</code>.
+Define a function that will sort a list of integers <code>A</code> using the **insertion sort method**. Sort low to high if the integer <code>x = 0</code> and sort high to low if  <code>x = 1</code>.
 
 ###### Example:
 
