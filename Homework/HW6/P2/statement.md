@@ -1,8 +1,8 @@
 ### Problem 2:
-#### 2 Points
+#### 3 Points
 
 ---
-Define a function which reads a string from input, call this <code>word</code>, and prints each anagram of <code>word</code> found in the list *Scrabble dictionary*. 
+Define a function which reads a string from input, call this <code>word</code>, and prints each anagram of <code>word</code> found in the list *Scrabble dictionary*.
 
 ###### Notes:
 
@@ -24,7 +24,7 @@ Example: 'regal' is an anagram of 'large', 'lager', and 'glare'
 - There will be three lines, each containing a single string <code>word</code>.
 ###### Output Format (output to terminal / stdout):
 
-- For each value of <code>word</code> execute your solution. Only print **one word per line.** 
+- For each value of <code>word</code> execute your solution. Only print **one word per line.**
 
 
 [SAMPLE INPUT](input.txt)
