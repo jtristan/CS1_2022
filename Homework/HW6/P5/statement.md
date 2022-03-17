@@ -3,27 +3,26 @@
 
 ---
 
-This bonus question will require you to write a solution in O(Log N).
+A *relative maximum* of an array <code>A</code> is an element of the array that is **strictly greater** than its neighbors. For this purpose, we consider <code>A[-1] = A[len(A)] = - infinity</code>. Write an O(log N) program to compute the index of a relative maximum of an input array <code>A</code>.
 
-Define a function, which that will print the index of a relative maximum in some array <code>A</code> of integers. If the array contains multiple relative maximums, print any one of their indexes. 
+If <code>A</code> contains multiple relative maximums, print any one of their indices (but just one). 
 
 ###### Notes:
 
-- **Your solution must be in O(Log N) to receive any credit.** 
-- A *relative maximum* is an element that is **strictly greater** than its neighbors.
-	- Ex. <code>6</code> and <code>4</code> are the relative maximum of <code>[3,6,2,4]</code>
+- Your solution must be in O(log N) to receive any credit. 
+- Ex. <code>6</code> and <code>4</code> are the relative maximums of <code>[3,6,2,4]</code>.
 	- If the first or last element is greater than its only neighbor, then it is considered a relative maximum.
-- Print the index of the relative maximum, not the element itself.
+- Print the **index** of the relative maximum, not the element itself.
 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- The first line is an integer <code>n</code>, the length of  array.
-- The next **n**-lines are integers, making up the array.
+- The first line is an integer <code>n</code>, the length of <code>A</code>.
+- The next n lines are integers, forming the entries of <code>A</code>.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print a single integer, the index of the peak element.
+- Print a single integer, an index of a peak element.
 
 [SAMPLE INPUT](input.txt)
 
