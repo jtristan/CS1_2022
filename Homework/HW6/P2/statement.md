@@ -1,5 +1,5 @@
 ### Problem 2:
-#### 3 Points
+#### 2 Points
 
 ---
 Write a program that reads a string from input, call this <code>word</code>, and prints each anagram of <code>word</code> found in the list *Scrabble dictionary*.
