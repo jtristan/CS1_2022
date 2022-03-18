@@ -1,5 +1,5 @@
 ### Problem 3:
-#### 2 Points
+#### 3 Points
 
 ---
 Implement binary search. Your program will accept a sorted array of distinct integers <code>A</code> and an integer <code>x</code>, and should print the index of <code>x</code> if it lies in <code>A</code>, or <code>-1</code> if the value does not exist in the list.
