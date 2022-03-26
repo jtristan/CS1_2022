@@ -7,7 +7,7 @@ Using any of the stack implementations above and given a string s, remove duplic
 
 ###### Example:
 
-- With <code>str = "abcdefcde", your program should print "abcdef". 
+- With input str = "abcdefcde", your program should print "abcdef". 
 
 ###### Input Format (input arrives from terminal / stdin):
 
