@@ -1,4 +1,4 @@
-python hw7_p4.py < input.txt > /tmp/result.txt
+python hw7_p1.py < input.txt > /tmp/result.txt
 diff -q output.txt /tmp/result.txt 1>/dev/null
 if [[ $? == "0" ]]
 then
