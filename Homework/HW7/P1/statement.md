@@ -1,28 +1,17 @@
 ### Problem 1:
-#### 2 Points
+#### 4 Points (Together with problem 2)
 
 ---
- The following question is about words in the *Scrabble dictionary* word list.
+ The following question asks you to create and implement a stack, as discussed in class.
 
-Write a program that reads an integer from input, call this <code>n</code>, and does the following for the corresponding value of <code>n</code>: 
-- <code>n=1</code> Print the length of the longest word.
-- <code>n=2</code> Print the first ten 15-letter words to appear in the word list. Only print **one word per line.**
-- <code>n=3</code> Prints all words with at least 5 occurrences of 'a'. Use the built in function <code>count</code>. Only print **one word per line.**
-	- ex. <code>"bananas".count('a')</code> is <code>3</code> 
-- <code>n=4</code> Prints all the words with the maximum possible number of occurrences of 'e'.
-	- For instance, if you determine that the Scrabble word with the most occurrences of 'e' has 5 occurrences of 'e', then your code should print each word in the Scrabble word list with 5 occurrences of 'e', **one word per line**. 
-- <code>n=5</code> Print all palindromes of the longest possible length. Only print **one word per line**.
-	- *Palindromes* are words that are the same backwards as forwards (ex. 'racecar'). 
-	- For instance, if you determine that the longest palindrome in the Scrabble dictionary has 6 letters, then your code should print all palindromes of length 6.
-- <code>n=6</code> Print all words that contain the letter 'q' but do not contain the string 'qu'. Only print **one word per line**.
+For the first part of this problem, your code should only implement a stack that takes a maximum size that can be passed to the initializer as a stack paramater.
 
-**Note:** The order in which you print the words for  <code>n = 3, 4, 5, 6</code> does not matter. In these portions, you will be graded on printing the correct collection of words, regardless of their order. When <code>n = 2</code>, you must print the words in order of their appearance in the word list.
+More info on what a stack is below: 
+
+In part 1 of this problem, you must create a stack that you can use in the later program as a structure to store and use data. From google, a stack is "an abstract data type that serves as a collection of elements, with two main principal operations: Push, which adds an element to the collection, and Pop, which removes the most recently added element that was not yet removed." Your stack should perform the following operations: push, pop, isEmpty(to see if the stack is empty), atMax(to see if you are at the stack capacity), current(returns what position you are at in the stack), and peek(to return the value at the stack pointer currently but not change any aspect of the stack i.e. pop). Lastly, you will need a constructor function to initialize the stack. You can read more about what a stack is an how to implement it here: https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm.
+
+You will then be asked to use this stack implementation to solve a problem in part 2. 
+ 
+**Note:** There will not be a corresponding text file to read in, but you may write a simple one in order to test your stack and see if it is working yourself. 
 
 **Note:** Due to the nature of the problem, no test cases are provided.
-
-###### Input Format (input arrives from terminal / stdin):
-
-- A single line, with the integer <code>n</code>.
-###### Output Format (output to terminal / stdout):
-
-- Print the appropriate output based on the value of <code>n</code>. Only print **one word per line.** 
