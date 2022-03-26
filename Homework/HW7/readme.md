@@ -7,11 +7,10 @@
 	<li> Implement your solutions in the newly created Python files.</li>
 	<li> When you are done with a problem, upload it on Canvas in the respective assignment.
 		<ul>
-		<li> Part 1: https://bostoncollege.instructure.com/courses/1632198/assignments/7082479 </li>
-		<li> Part 2: https://bostoncollege.instructure.com/courses/1632198/assignments/7101086 </li>
-		<li> Part 3: https://bostoncollege.instructure.com/courses/1632198/assignments/7101087 </li>
-		<li> Part 4: https://bostoncollege.instructure.com/courses/1632198/assignments/7101088 </li>
-		<li> Part 5: https://bostoncollege.instructure.com/courses/1632198/assignments/7101089 </li>
+		<li> Part 1:  </li>
+		<li> Part 2:  </li>
+		<li> Part 3:  </li>
+		<li> Part 4:  </li>
 		</ul>
 	</li>
 </ul>
@@ -19,7 +18,7 @@
 #### Things to Note: 
 
 <ul>
-	<li> Each stack you implement should be defined at initialized as an array of type None. For example, the array part of the stack could be initialized as self.array = [None] * size, where size is the size of the stack passed to the initializer.
+	<li> Each stack you implement should be defined at initialized as an array of type <code>None</code>. For example, the array part of the stack could be initialized as <code>self.array = [None] * size</code>, where size is the size of the stack passed to the initializer.
 		</pre>
 	</li>
 	<li> You are starting off with empty Python files. You will choose how to structure the code that reads in the input (as per the problem specification), computes the solution, and prints only the solution.
