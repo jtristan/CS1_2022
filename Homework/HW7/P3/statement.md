@@ -6,6 +6,9 @@ Implement a monotonic stack. A monotonic stack is a stack whose elements are mon
 
 You should use the same format as in P1 to test the monotonic stack, where you create a separate file and import the montonic stack, so that you can import the implementation alone to use later. 
 
+Note:
+- Since you initialize the stack as an array of type None, when you print the final array it will have leftover spaces of type None, you should still print the array with these None's.
+
 
 ###### Examples:
 - For <code>A = [ 10, 5, 8, 2, -7, 4, 6, ]</code>, the output should be: [-7, 4, 6] if each element of the array is pushed to the stack in order
