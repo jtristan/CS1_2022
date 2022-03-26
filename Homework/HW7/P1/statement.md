@@ -14,6 +14,14 @@ After implementing the stack in one file, you should create another file which i
 
 You will then be asked to use this stack implementation to solve a problem in part 2. 
 
- 
+
+###### Input Format (input arrives from terminal / stdin):
+
+- The first line is an integer <code>n</code>, the number of elements in the array.
+- The next n lines are integers, making up the array <code>A</code>.
+
+###### Output Format (output to terminal / stdout):
+
+- Print a single integer, the resulting of pushing each element of the array to the stack then popping once.
 
 **Note:** Due to the nature of the problem, no test cases are provided.
