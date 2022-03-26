@@ -1,24 +1,18 @@
 ### Problem 2:
-#### 2 Points
+#### 4 Points (Together with Problem 1)
 
 ---
-Write a program that reads a string from input, call this <code>word</code>, and prints each anagram of <code>word</code> found in the list *Scrabble dictionary*.
+Write a program that reads a string from input, call this <code>word</code>, and prints the message "True" if <code>word</code> is balanced and "False if not. You must use a stack, the one you implemented in part one, to solve this problem. 
+
+Use the stack you created in part 1 to tell whether a list of characters containing only '{', '}', '(', ')', '[', ']'. These 6 characters and their sequence should be read in from a text file where the first element is an int containing the number of characters in the list. The array should then be passed to a function which initializes a stack and uses it to test whether the list is balanced, meaning symmetrical. For example the list ['(', '{', '}', ')'] is balanced but the list ['(', '{', '}', '('] is not. If the list is balanced, print "True". If it is not, print "False".
 
 ###### Notes:
 
-The order which you print the anagrams does not matter.
-
-An ***anagram*** of a word is another word that you get by scrambling the letters of the original word.<br>
-Example: 'regal' is an anagram of 'large', 'lager', and 'glare'
+- Opening brackets and paranthesis should always come before their corresponding closing symbols. For example, you may assume that the character array '}', '{' is not balanced even though it is symmetrical. 
 
 ###### Hint
--  You may want to sort the letters of <code>word</code> by using the function <code>''.join(sorted(word))</code>.
-	- <code>sorted</code> will return a list of the letters in alphabetical order. <code>join</code> converts the character list into a string.
-	- How does sorting the letters in a word help you detect anagrams?
+-  You may want to first check whether the symbol is opening or closing, and either push or pop from the stack accordingly. 
 
-
-###### Example:
-- On input <code>eat</code>, your program should print the words:<br><code>ate</code><br><code>eat</code><br><code>eta</code><br><code>tae</code><br><code>tea</code>
 
 ###### Input Format (input arrives from terminal / stdin):
 
