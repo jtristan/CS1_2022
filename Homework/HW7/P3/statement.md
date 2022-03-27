@@ -2,27 +2,45 @@
 #### 2 Points
 
 ---
-Implement a monotonic stack. A monotonic stack is a stack whose elements are monotonically increasing or descreasing. For the purpose of this problem, we will ask you to implement the increasing version. Therefore, an element should only be pushed to the stack if it is bigger than the element the stack is currenlty pointing to. The stack should pop until this case is true, or the stack is empty, and then push the element. For example, given the array [2, -4, 7, 3, 5], a simple push of each element to the monotonic stack and pritning of the subsequent stack array should return [-4, 3, 5]. 
+Implement a monotonic stack. 
 
-You should use the same format as in P1 to test the monotonic stack, where you create a separate file and import the montonic stack, so that you can import the implementation alone to use later. 
+A **monotonic stack** is a stack whose elements are monotonically increasing. In particular, an element should only be pushed to the stack if it is bigger than the topmost element of the stack (i.e., the element that would be returned if you were to pop from the stack). 
 
-Note:
-- Since you initialize the stack as an array of type None, when you print the final array it will have leftover spaces of type None, you should still print the array with these None's.
+When pushing a value <code>v</code> onto a monotonic stack <code>S</code>, one should pop from <code>S</code> until <code>v</code> is greater than the topmost element of <code>S</code> or <code>S</code> is empty, and subsequently push <code>v</code> onto <code>S</code>. (For example, pushing the values [2, -4, 7, 3, 5] onto a monotonic stack would result in a stack with the values [-4, 3, 5].)
 
+As in Problem 1, your implementation should take the form of a Python [class](https://www.w3schools.com/python/python_classes.asp), with methods for initialization, pushing, popping, and determining emptiness. The initialization method should take a <code>max_size</code> parameter determining the maximum capacity of the stack. 
 
-###### Examples:
-- For <code>A = [ 10, 5, 8, 2, -7, 4, 6, ]</code>, the output should be: [-7, 4, 6] if each element of the array is pushed to the stack in order
+After defining the class, write a program to use the stack with user input. In particular, write a program that reads lines of user input, each of which is either:
+1. The string <code>'create'</code>,
+2. The string <code>'pop'</code>, 
+3. The string <code>'test_empty'</code>, or 
+4. A single integer <code>n</code>. 
 
-- For <code>A = [ 18, 4, 1, 0, 7, 5, -7]</code>, the output should be: [-7] if each element of the array is pushed to the stack in order. 
+Reading these commands should cause your program to do the following, respectively: 
+1. Create a new stack of capacity 100 (and don't print anything).
+2. Pop from the stack and the print the popped value on its own line. 
+3. Test whether the stack is empty, printing <code>True</code> or <code>False</code> on its own line. 
+4. Push the integer <code>n</code> onto the stack (and don't print anything).
+
+###### Note:
+
+Your implementation of the program must be structured as follows: 
+
+<pre class="brush: python">
+# Implementation of stack class
+ 
+if __name__ == "main":
+ # Implementation of program using stack class
+</pre> 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- The first line is an integer <code>x</code>, the lenght of the array.
-- The next n lines are integers, making up the array <code>A</code>.
+- The first line is an integer <code>N</code>, the number of commands to follow. 
+- The next <code>N</code> lines are commands, from points 1-4 above.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print the final array stored by the monotonic stack.
+- Print the result of implementing each command on its own line. Note that commands 1 and 4 do not result in anything being printed. 
 
 [SAMPLE INPUT](input.txt)
 
