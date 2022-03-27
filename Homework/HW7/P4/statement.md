@@ -3,22 +3,46 @@
 
 ---
 
-Implement a min stack. A min stack is a stack which has a minimum element that it keeps track of as elements are pushed and popped from the stack. Therefore, this implementation must have a way to keep track of the minimum element for both of these operations, and update it accordingly. This stack implementation should have an additional function, getMin(), which returns the minimum element held by the stack. After reading in an array from input like normal and pushing each element to the minstack, the program should call getMin() and print the result. 
+Implement a min stack. 
 
-You should use the same format as in P1 to test the monotonic stack, where you create a separate file and import the montonic stack, so that you can import the implementation alone to use later. 
+A **min stack** is a stack with a method for returning the minimal element in the stack. Note that this method only returns the minimal element in the stack; it does not remove the element (unlike how popping removes the most recent element from the stack). 
 
-###### Example:
+Your implementation should take the form of a Python [class](https://www.w3schools.com/python/python_classes.asp), with methods for initialization, pushing, popping, determining emptiness, and fetching the minimal element of the stack. The initialization method should take a <code>max_size</code> parameter determining the maximum capacity of the stack. 
 
-- With <code>A = [4, 6, 3, 5, 2, 1]</code> and <code>x = 0</code>, your program should output 1 using a min stack. 
+
+After defining the class, write a program to use the stack with user input. In particular, write a program that reads lines of user input, each of which is either:
+1. The string <code>'create'</code>,
+2. The string <code>'pop'</code>, 
+3. The string <code>'test_empty'</code>, or 
+4. A single integer <code>n</code>. 
+5. The string <code>'get_min'</code>
+
+Reading these commands should cause your program to do the following, respectively: 
+1. Create a new stack of capacity 100 (and don't print anything).
+2. Pop from the stack and the print the popped value on its own line. 
+3. Test whether the stack is empty, printing <code>True</code> or <code>False</code> on its own line. 
+4. Push the integer <code>n</code> onto the stack (and don't print anything).
+5. Print the minimal value in the stack on its own line. 
+
+###### Note:
+
+Your implementation of the program must be structured as follows: 
+
+<pre class="brush: python">
+# Implementation of min stack class
+ 
+if __name__ == "main":
+ # Implementation of program using min stack class
+</pre> 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- The first line will be an integer <code>n</code>, the length of array <code>A</code>.
-- The next n lines will be integers making up array <code>A</code>.
+- The first line is an integer <code>N</code>, the number of commands to follow. 
+- The next <code>N</code> lines are commands, from points 1-5 above.
+
 ###### Output Format (output to terminal / stdout):
 
-- Print the smallest element of the array.
-
+- Print the result of implementing each command on its own line. Note that commands 1 and 4 do not result in anything being printed. 
 
 [SAMPLE INPUT](input.txt)
 
