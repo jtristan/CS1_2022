@@ -1,25 +1,21 @@
 ### Problem 2:
-#### 4 Points (Together with Problem 1)
+#### 2 Points
 
 ---
-Write a program that reads a string from input, call this <code>word</code>, and prints the message "True" if <code>word</code> is balanced and "False if not. You must use a stack, the one you implemented in part one, to solve this problem. 
+Use the stack you implemented in Problem 1 to determine whether strings containing the characters '{', '}', '(', ')', and '[', ']' are balanced (as discussed in class). Your program should print <code>True</code> if the input string is balanced and <code>False</code> otherwise. 
 
-Use the stack you created in part 1 to tell whether a list of characters containing only '{', '}', '(', ')', '[', ']'. These 6 characters and their sequence should be read in from a text file where the first element is an int containing the number of characters in the list. The array should then be passed to a function which initializes a stack and uses it to test whether the list is balanced, meaning symmetrical. For example the list ['(', '{', '}', ')'] is balanced but the list ['(', '{', '}', '('] is not. If the list is balanced, print "True". If it is not, print "False".
 
-###### Notes:
-
-- Opening brackets and paranthesis should always come before their corresponding closing symbols. For example, you may assume that the character array '}', '{' is not balanced even though it is symmetrical. 
-
-###### Hint
--  You may want to first check whether the symbol is opening or closing, and either push or pop from the stack accordingly. 
+###### Hint:
+-  You may want to iterate through the characters in the input string, checking whether each character is opening or closing and either pushing or popping from a working stack accordingly. 
 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- A single line, containing a string <code>word</code>.
+- A single line, containing a string <code>s</code>.
+
 ###### Output Format (output to terminal / stdout):
 
-- Print the anagrams of <code>word</code>, **one anagram per line.**
+- Print <code>True</code> if <code>s</code> is balanced, <code>False</code> otherwise. 
 
 
 [SAMPLE INPUT](input.txt)
