@@ -1,8 +1,10 @@
 ### Problem 1:
-#### 4 Points (Together with problem 2)
+#### 2 Points
 
 ---
-Implement the stack data type, as discussed in class. Your implementation should take the form of a Python [class](https://www.w3schools.com/python/python_classes.asp), with methods for initialization, pushing, popping, and determining emptiness. The initialization method should take a <code>max_size</code> parameter determining the maximum capacity of the stack. 
+Implement the stack data type, as discussed in class. 
+
+Your implementation should take the form of a Python [class](https://www.w3schools.com/python/python_classes.asp), with methods for initialization, pushing, popping, and determining emptiness. The initialization method should take a <code>max_size</code> parameter determining the maximum capacity of the stack. 
 
 After defining the class, write a program to use the stack with user input. In particular, write a program that reads lines of user input, each of which is either:
 1. The string <code>'create'</code>,
