@@ -2,20 +2,20 @@
 #### 2 Points
 
 ---
-Use the stack you implemented in Problem 1 to determine whether strings containing the characters '{', '}', '(', ')', and '[', ']' are balanced (as discussed in class). Your program should print <code>True</code> if the input string is balanced and <code>False</code> otherwise. 
+Use the stack you implemented in Problem 1 to determine how many different ways there are to climb a set of n stairs. On each step, you can either climb one or two stairs. 
 
 
 ###### Hint:
--  You may want to iterate through the characters in the input string, checking whether each character is opening or closing and either pushing or popping from a working stack accordingly. 
+-  You may want to first sketch out this problem on a piece of paper, determine an algorithm for the solution, and then see how a stack can help you implement that algorithm. 
 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- A single line, containing a string <code>s</code>.
+- A single line, containing the number of stairs <code>n</code>.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print <code>True</code> if <code>s</code> is balanced, <code>False</code> otherwise. 
+- Print <code>d</code>, the nuember of different ways you can climb this set of stairsc. 
 
 
 [SAMPLE INPUT](input.txt)
