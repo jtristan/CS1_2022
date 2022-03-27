@@ -18,7 +18,7 @@
 #### Things to Note: 
 
 <ul>
-	<li> Each stack you implement should be defined at initialized as an array of type <code>None</code>. For example, the array part of the stack could be initialized as <code>self.array = [None] * size</code>, where size is the size of the stack passed to the initializer.
+	<li> Each stack you implement should be initialized as an array of type <code>None</code>. For example, the underlying array of the stack could be initialized as <code>self.array = [None] * size</code>, where <code>size</code> is the capacity argument passed to the initializer.
 		</pre>
 	</li>
 	<li> You are starting off with empty Python files. You will choose how to structure the code that reads in the input (as per the problem specification), computes the solution, and prints only the solution.
