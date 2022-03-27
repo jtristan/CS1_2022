@@ -38,3 +38,7 @@ if __name__ == "main":
 ###### Output Format (output to terminal / stdout):
 
 - Print the result of implementing each command on its own line. Note that commands 1 and 4 do not result in anything being printed. 
+
+[SAMPLE INPUT](input.txt)
+
+[SAMPLE OUTPUT](output.txt)
