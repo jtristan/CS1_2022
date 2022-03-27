@@ -2,26 +2,37 @@
 #### 4 Points (Together with problem 2)
 
 ---
- The following question asks you to create and implement a stack, as discussed in class.
+Implement the stack data type, as discussed in class. Your implementation should take the form of a Python [class](https://www.w3schools.com/python/python_classes.asp), with methods for initialization, pushing, popping, and determining emptiness. The initialization method should take a <code>max_size</code> parameter determining the maximum capacity of the stack. 
 
-For the first part of this problem, your code should only implement a stack that takes a maximum size that can be passed to the initializer as a stack paramater.
+After defining the class, write a program to use the stack with user input. In particular, write a program that reads lines of user input, each of which is either:
+1. The string <code>'create'</code>,
+2. The string <code>'pop'</code>, 
+3. The string <code>'test_empty'</code>, or 
+4. A single integer <code>n</code>. 
 
-More info on what a stack is below: 
+Reading these commands should cause your program to do the following, respectively: 
+1. Create a new stack of capacity 100 (and don't print anything).
+2. Pop from the stack and the print the popped value on its own line. 
+3. Test whether the stack is empty, printing <code>True</code> or <code>False</code> on its own line. 
+4. Push the integer <code>n</code> onto the stack (and don't print anything).
 
-In part 1 of this problem, you must create a stack that you can use in the later program as a structure to store and use data. From google, a stack is "an abstract data type that serves as a collection of elements, with two main principal operations: Push, which adds an element to the collection, and Pop, which removes the most recently added element that was not yet removed." Your stack should perform the following operations: push, pop, isEmpty(to see if the stack is empty), atMax(to see if you are at the stack capacity), current(returns what position you are at in the stack), and peek(to return the value at the stack pointer currently but not change any aspect of the stack i.e. pop). Lastly, you will need a constructor function to initialize the stack. You can read more about what a stack is an how to implement it here: https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm.
+###### Note:
 
-After implementing the stack in one file, you should create another file which imports the stack implementation and then reads in the input array, susequently pushing each element, then pops once and returns the result. This is just to make sure push, pop, and the initializer are working correctly. 
+Your implementation of the program must be structured as follows: 
 
-You will then be asked to use this stack implementation to solve a problem in part 2. 
+<pre class="brush: python">
+# Implementation of stack class
+ 
+if __name__ == "main":
+ # Implementation of program using stack class
+</pre> 
 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- The first line is an integer <code>n</code>, the number of elements in the array.
-- The next n lines are integers, making up the array <code>A</code>.
+- The first line is an integer <code>N</code>, the number of commands to follow. 
+- The next <code>N</code> lines are commands, from points 1-4 above.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print a single integer, the resulting of pushing each element of the array to the stack then popping once.
-
-**Note:** Due to the nature of the problem, no test cases are provided.
+- Print the result of implementing each command on its own line. Note that commands 1 and 4 do not result in anything being printed. 
