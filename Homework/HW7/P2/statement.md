@@ -15,7 +15,7 @@ Use the stack you implemented in Problem 1 to determine how many different ways 
 
 ###### Output Format (output to terminal / stdout):
 
-- Print <code>d</code>, the nuember of different ways you can climb this set of stairsc. 
+- Print <code>d</code>, the nuember of different ways you can climb this set of stairs. 
 
 
 [SAMPLE INPUT](input.txt)
