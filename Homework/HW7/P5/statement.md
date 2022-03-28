@@ -9,7 +9,7 @@ Using one of the stack types implemented in Problems 1, 3, and 4, write a proble
 
 ###### Example:
 
-- With input str = "abcdefcde", your program should print "abcdef". 
+- With input str = "bcabc", your program should print "abc", as it is lexicographically smaller than "cab" and "bca" (i.e., it would appear earlier in a dictionary). 
 
 ###### Input Format (input arrives from terminal / stdin):
 
