@@ -5,7 +5,7 @@
 
 Using one of the stack types implemented in Problems 1, 3, and 4, write a problem that takes a string <code>s</code> and returns the subsequence <code>s'</code> of <code>s</code> such that:
 1. <code>s'</code> consists of <code>s</code> with duplicate letters removed, i.e., <code>s'</code> contains all the letters in <code>s</code> (in order) and does not contain any duplicate letters, and 
-2. <code>s'</code> is the smallest subsequence of <code>s</code> with property (1.), as measured by lexigoraphical order.
+2. <code>s'</code> is the smallest subsequence of <code>s</code> with property (1.), as measured by lexicographical order.
 
 ###### Example:
 
