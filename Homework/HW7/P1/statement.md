@@ -14,7 +14,7 @@ After defining the class, write a program to use the stack with user input. In p
 
 Reading these commands should cause your program to do the following, respectively: 
 1. Create a new stack of capacity 100 (and don't print anything).
-2. Pop from the stack and the print the popped value on its own line. 
+2. Pop from the stack and print the popped value on its own line. 
 3. Test whether the stack is empty, printing <code>True</code> or <code>False</code> on its own line. 
 4. Push the integer <code>n</code> onto the stack (and don't print anything).
 
