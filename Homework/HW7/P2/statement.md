@@ -2,20 +2,21 @@
 #### 2 Points
 
 ---
-Use the stack you implemented in Problem 1 to determine how many different ways there are to climb a set of n stairs, starting from the bottom of the staircase. On each step, you can either climb one or two stairs. Your program should output how many unique paths you can take to reach the top. 
+A staircase has <code>n</code> steps; in each movement, you can climb either 1 or 2 steps of the staircase. Using the stack you implemented in Problem 1, write a program to determine how many distinct ways there are to climb such a staircase. 
 
 
-###### Hint:
--  You may want to first sketch out this problem on a piece of paper, determine an algorithm for the solution, and then see how a stack can help you implement that algorithm. 
+
+###### Example:
+-  When <code>n=3</code>, there are 3 distinct ways to climb the staircase: 1 + 1 + 1, 1 + 2, and 2 + 1. 
 
 
 ###### Input Format (input arrives from terminal / stdin):
 
-- A single line, containing the number of stairs <code>n</code>.
+- A single line with the integer <code>n</code>.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print <code>d</code>, the nuember of different ways you can climb this set of stairs. 
+- Print the number of distinct ways you can climb a staircase of length <code>n</code>. 
 
 
 [SAMPLE INPUT](input.txt)
