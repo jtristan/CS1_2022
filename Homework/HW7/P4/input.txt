@@ -1,0 +1,9 @@
+8
+create
+7
+pop
+test_empty
+12
+-8
+4
+get_min

@@ -1,0 +1,10 @@
+10
+create
+test_empty
+4
+10
+-3
+8
+7
+pop
+pop
