@@ -2,7 +2,7 @@
 #### 2 Points
 
 ---
-Use the stack you implemented in Problem 1 to determine how many different ways there are to climb a set of n stairs. On each step, you can either climb one or two stairs. 
+Use the stack you implemented in Problem 1 to determine how many different ways there are to climb a set of n stairs, starting from the bottom of the staircase. On each step, you can either climb one or two stairs. Your program should output how many unique paths you can take to reach the top. 
 
 
 ###### Hint:
