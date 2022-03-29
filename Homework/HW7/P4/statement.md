@@ -31,7 +31,7 @@ Your implementation of the program must be structured as follows:
 <pre class="brush: python">
 # Implementation of min stack class
  
-if __name__ == "main":
+if __name__ == "__main__":
  # Implementation of program using min stack class
 </pre> 
 
