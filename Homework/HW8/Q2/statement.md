@@ -1,43 +1,33 @@
-<h1> Problem 2: Implement the Set Data Type using a Hash Table with Chaining </h1>
-<h3> 2 Points </h3>
+### Problem 2
+#### 2 points
 
-Implement the class Set. You should implement operations **add,** and **test**. You can use magic method for test...  _ _ contains _ _. 
+___
 
-<br />
-While not required, it might be helpful for your own testing to implement a function _ _str_ _ to print the set in string-version.
-<br />
-<br />
+Implement the set data type using a hash table with chaining. 
 
-After defining the classes, write a program to use the set with user input. In particular, write a program that reads the lines of user input, each of which is either: 
- <br /> <br />
- 1. The first input value, n, will be the number of commands that follow.
- 2. The string "create" (where you should create a Dictionary instance)
- 3. An integer number (where you should add that number to the set)
- 4. The string "contains" (where you should grab a second integer input and check if that value is in the set)
- <br /> <br />
+After defining the class, write a program to use the set with user input. In particular, write a program that reads lines of user input, each of which is either: 
+1. The string "create",
+2. The string "add **x**", where **x** is an integer, or
+3. The string "contains **x**", where **x** is an integer. 
+
+Reading these commands should cause your program to do the following, respectively: 
+1. Create an empty set. 
+2. Add the value **x** to the set.
+3. Test where **x** is in the set, printing <code>True</code> if so and <code>False</code> otherwise. 
  
- For example, you should be able to run the lines: <br />
- 1. new = Set()
- 2. new.add(10)
- 3. 10 in new           -- Boolean, returns True if 10 in set, False if not 
+###### Hint:
+While not required, it might be helpful for your own testing to implement a function _ _str_ _ to print the set.
 
-
-<h3> Note: </h3>
-Your implementation of the program MUST be structured as follows: 
- <br /> 
- <pre class="brush: python">
- if __name__ == "__main__":
- # Implementation of program using set class
- </pre> 
+For an input string <code>s</code>, you may want to use <code>s.startswith('abc')</code> to test whether <code>s</code> starts with the substring <code>'abc'</code>. You may also want to use <code>s.split(' ')</code> to separate <code>s</code> into its space-separated components.
  
 ###### Input Format (input arrives from terminal / stdin):
 
 - The first line is an integer <code>N</code>, the number of commands to follow. 
-- The next <code>N</code> lines are commands, from points 2-4 above.
+- The next <code>N</code> lines are commands, from points 1-3 above.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print the result of implementing each command on its own line. Note that commands 2 and 3 do not result in anything being printed. 
+- Print the result of implementing each command on its own line. Note that commands 1 and 2 do not result in anything being printed. 
 
 [SAMPLE INPUT](input.txt)
 
