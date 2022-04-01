@@ -36,15 +36,9 @@ Implement the Functions:
 <ul>
  1. The first input value, n, will be the number of commands that follow. </ul> 
 <ul>
- 2. The string "titleCast" (where you should grab a second string input and print its values from the Title-Cast dictionary) </ul> 
-<ul>
- 3. The string "actorTitle" (where you should grab a second string input and print its values from the Actor-Title dictionary) </ul> </ul> 
+ 2. Any of the strings "q1", "q2", "q3", or "q4" in which you should print your answers to each respective question. </ul> 
+ </ul> 
  
-
- For example, you should be able to run the lines: <br />
- - print(titleCast["Guardians of the Galaxy"])
- - print(actorTitle["Chris Pratt"])
-
  
 <h3> Note: </h3>
 You will need to use the following lines in order to obtain the initial Film-Cast dictionary: 
@@ -72,8 +66,8 @@ Your implementation of the program MUST be structured as follows:
 
 ###### Output Format (output to terminal / stdout):
 
-- Print the result of implementing each command on its own line. 
+- Print the result of each question on its own line. 
 
 [SAMPLE INPUT](input.txt)
 
-[SAMPLE OUTPUT](output.txt)
+**There will be no sample output, since you need to find the answers to the questions on your own.**
