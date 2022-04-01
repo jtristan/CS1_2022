@@ -1,13 +1,10 @@
-10
+9
 create
-5
-1234
-89
-contains
-5
-contains
-89
-contains
-100
-5
-1234
+add 5
+add 1234
+add 89
+contains 5
+contains 89
+contains 100
+add 5
+add 1234
