@@ -62,7 +62,7 @@ Your implementation of the program MUST be structured as follows:
 ###### Input Format (input arrives from terminal / stdin):
 
 - The first line is an integer <code>N</code>, the number of commands to follow. 
-- The next <code>N</code> lines are commands and input values, from points 2 and 3 above.
+- The next <code>N</code> lines are commands and input values, from point 2 above.
 
 ###### Output Format (output to terminal / stdout):
 
