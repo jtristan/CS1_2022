@@ -42,17 +42,8 @@ Implement the Functions:
 <ul>
  1. The first input value, n, will be the number of commands that follow. </ul> 
 <ul>
- 2. The string "titleCast" (where you should grab a second string input and print its values from the Title-Cast dictionary) </ul> 
-<ul>
- 3. The string "actorTitle" (where you should grab a second string input and print its values from the Actor-Title dictionary) </ul> 
-<ul>
- 4. The string "collaboration" (where you should grab a second string input and print its values from the Collaboration dictionary) </ul> 
+ 2. Any of the strings "q1", "q2", or "q3" in which you should print your answers to each respective question.  </ul> 
 </ul> 
- 
- For example, you should be able to run the lines: <br />
- - print(titleCast["Guardians of the Galaxy"])
- - print(actorTitle["Chris Pratt"])
- - print(collaboration["Miles Teller"]
 
 
 <h3> Note: </h3>
@@ -77,7 +68,7 @@ Your implementation of the program MUST be structured as follows:
 ###### Input Format (input arrives from terminal / stdin):
 
 - The first line is an integer <code>N</code>, the number of commands to follow. 
-- The next <code>N</code> lines are commands and input values, from points 2-4 above.
+- The next <code>N</code> lines are commands and input values, from point 2 above.
 
 ###### Output Format (output to terminal / stdout):
 
@@ -85,4 +76,4 @@ Your implementation of the program MUST be structured as follows:
 
 [SAMPLE INPUT](input.txt)
 
-[SAMPLE OUTPUT](output.txt)
+**There will be no sample output, since you need to find the answers to the questions on your own.**
