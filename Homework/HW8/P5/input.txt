@@ -1,4 +1,5 @@
-2
-schiller
-institute
-abcdefsghijklmnopqrtuvwxyz
+3
+coding
+computer
+science
+zyxwvutsrqponmlkjihgfedcba
