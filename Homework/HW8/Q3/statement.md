@@ -5,7 +5,7 @@ ___
 
 Reverse the provided Title-Cast dictionary. In particular, create a dictionary whose keys are actors and whose corresponding values are the collection of movies in which the actor appears. 
 
-After creating the Actor-Title dictinoary, write a program that reads lines of user input, each of which is either: 
+After creating the Actor-Title dictionary, write a program that reads lines of user input, each of which is either: 
 1. The string "owen_wilson",
 2. The string "num_actors",
 3. The string "bradley_cooper_and_jennifer_lawrence", or
