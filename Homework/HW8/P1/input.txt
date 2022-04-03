@@ -1,0 +1,12 @@
+11
+create
+length
+insert Boston College
+insert Chestnut Hill
+length
+insert Alumni Stadium 
+length 
+lookup Boston
+lookup Chestnut
+lookup Alumni
+lookup Baldwin
