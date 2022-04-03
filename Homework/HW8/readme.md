@@ -7,11 +7,11 @@
 	<li> Implement your solutions in the newly created Python files.</li>
 	<li> When you are done with a problem, upload it on Canvas in the respective assignment.
 		<ul>
-		<li> Part 1: </li>
-		<li> Part 2: </li>
-		<li> Part 3: </li>
-		<li> Part 4: </li>
-		<li> Part 5: </li>
+		<li> Part 1: https://bostoncollege.instructure.com/courses/1632198/assignments/7082481 </li>
+		<li> Part 2: https://bostoncollege.instructure.com/courses/1632198/assignments/7108214 </li>
+		<li> Part 3: https://bostoncollege.instructure.com/courses/1632198/assignments/7108215 </li>
+		<li> Part 4: https://bostoncollege.instructure.com/courses/1632198/assignments/7108216 </li>
+		<li> Part 5: https://bostoncollege.instructure.com/courses/1632198/assignments/7108217 </li>
 		</ul>
 	</li>
 </ul>
