@@ -1,48 +1,29 @@
-<h1> Problem 3: Reverse a Dictionary </h1>
-<h3> 2 Points </h3>
+### Problem 3: 
+#### 2 Points
 
-1. Using the provided Title-Cast dictionary (the **title** of a movie is the **key**, the **cast** of the movie are the **values**), 
-reverse the dictionary such that an **actor** is the **key** and the **movies** they appear in are the **values**. <br /><br />
-Implement the Functions: 
-<ul>
-<ul>
- <li>def build_actor_dict(d): </li> </ul> 
-<ul>
- <li>def q1(d):</li> </ul> 
-<ul>
- <li>def q2(d):</li> </ul> 
-<ul>
- <li>def q3(d):</ul> </li>
- <ul>
- <li>def q4(d):</ul> </li>
-</ul>
+___
 
-2. Using the new Actor-Title dictionary, answer the following questions in the functions above: <br />
-<ul>
-<ul>
- 1. List all the movies in which Owen Wilson appears. </ul> 
-<ul>
- 2. How many actors are in the database? </ul> 
-<ul>
- 3. What are all the films in which both Bradley Cooper and Jennifer Lawrence have appeared? </ul> 
-<ul>
- 4. Find the largest number of films that any actor in the database has appeared in, and find all the actors who have appeared in this number of films.
-</ul>
- </ul>
+Reverse the provided Title-Cast dictionary. In particular, create a dictionary whose keys are actors and whose corresponding values are the collection of movies in which the actor appears. 
 
-3. After defining the dictionaries, write a program to use them with user input. In particular, write a program that reads the lines of user input, each of which is either: 
-<br />
-<ul>
-<ul>
- 1. The first input value, n, will be the number of commands that follow. </ul> 
-<ul>
- 2. Any of the strings "q1", "q2", "q3", or "q4" in which you should print your answers to each respective question. </ul> 
- </ul> 
+After creating the Actor-Title dictinoary, write a program that reads lines of user input, each of which is either: 
+1. The string "owen_wilson",
+2. The string "num_actors",
+3. The string "bradley_cooper_and_jennifer_lawrence", or
+4. The string "most_productive_actors". 
+
+Reading these commands should cause your program to do the following, respectively: 
+1. Print all the movies in which Owen Wilson appears, one movie per line. 
+2. Print the number of actors in the database. 
+3. Print all the movies in which both Bradley Cooper and Jennifer Lawrence appear, one movie per line. 
+4. Find the largest number of films that any actor in the database has appeared in, and print all the actors who have appeared in this number of films, one actor per line. 
  
- 
-<h3> Note: </h3>
-You will need to use the following lines in order to obtain the initial Film-Cast dictionary: 
- <br />
+For commands 1, 2, and 4, the order in which the movies/actors are printed is not consequential. You will be graded based on the collection of movies/actors (though you should repeatedly print any movie or actor needlessly). 
+
+###### Note:
+
+You will need to use the following code in order to obtain the initial Film-Cast dictionary.
+
+
 <pre class="brush: python">
 import pickle
  <br />
@@ -51,23 +32,15 @@ def get_title_dict():
     d=pickle.load(f)
     return d
  </pre> 
-  <br />
-Your implementation of the program MUST be structured as follows: 
- <br /> 
- <pre class="brush: python">
- if __name__ == "__main__":
- # Implementation of program using Film-Cast and Actor-Title dictionaries.
- </pre> 
+
  
 ###### Input Format (input arrives from terminal / stdin):
 
 - The first line is an integer <code>N</code>, the number of commands to follow. 
-- The next <code>N</code> lines are commands and input values, from point 2 above.
+- The next <code>N</code> lines are commands and input values, from points 1-4 above.
 
 ###### Output Format (output to terminal / stdout):
 
-- Print the result of each question on its own line. 
+- Print the result of executing each command, as per points 1-4 above. . 
 
-[SAMPLE INPUT](input.txt)
-
-**There will be no sample output, since you need to find the answers to the questions on your own.**
+Due to the nature of the problem, no sample input or output files are provided. 
