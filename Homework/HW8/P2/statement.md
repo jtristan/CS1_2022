@@ -13,10 +13,10 @@ After defining the class, write a program to use the set with user input. In par
 Reading these commands should cause your program to do the following, respectively: 
 1. Create an empty set. 
 2. Add the value **x** to the set.
-3. Test where **x** is in the set, printing <code>True</code> if so and <code>False</code> otherwise. 
+3. Test whether **x** is in the set, printing <code>True</code> if so and <code>False</code> otherwise. 
  
 ###### Hint:
-While not required, it might be helpful for your own testing to implement a function _ _str_ _ to print the set.
+While not required, it might be helpful for your own testing to implement a function <code> _ _ str_ _ </code> to print the set.
 
 For an input string <code>s</code>, you may want to use <code>s.startswith('abc')</code> to test whether <code>s</code> starts with the substring <code>'abc'</code>. You may also want to use <code>s.split(' ')</code> to separate <code>s</code> into its space-separated components.
  
