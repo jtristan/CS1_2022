@@ -3,12 +3,12 @@
 
 ___
 
-Reverse the provided Title-Cast dictionary. In particular, create a dictionary whose keys are actors and whose corresponding values are the collection of movies in which the actor appears. 
+Reverse the provided Title-Cast dictionary (for which import code is provided below). In particular, create a dictionary whose keys are actors and whose corresponding values are the collection of movies in which the actor appears. 
 
 After creating the Actor-Title dictionary, write a program that reads lines of user input, each of which is either: 
 1. The string "owen_wilson",
 2. The string "num_actors",
-3. The string "bradley_cooper_and_jennifer_lawrence", or
+3. The string "bradley_and_jennifer", or
 4. The string "most_productive_actors". 
 
 Reading these commands should cause your program to do the following, respectively: 
@@ -17,7 +17,7 @@ Reading these commands should cause your program to do the following, respective
 3. Print all the movies in which both Bradley Cooper and Jennifer Lawrence appear, one movie per line. 
 4. Find the largest number of films that any actor in the database has appeared in, and print all the actors who have appeared in this number of films, one actor per line. 
  
-For commands 1, 2, and 4, the order in which the movies/actors are printed is not consequential. You will be graded based on the collection of movies/actors (though you should repeatedly print any movie or actor needlessly). 
+For commands 1, 2, and 4, the order in which the movies/actors are printed is not consequential. You will be graded based on the collection of movies/actors (though you should not repeatedly print any movie or actor needlessly). 
 
 ###### Note:
 
