@@ -41,6 +41,6 @@ def get_title_dict():
 
 ###### Output Format (output to terminal / stdout):
 
-- Print the result of executing each command, as per points 1-4 above. . 
+- Print the result of executing each command, as per points 1-4 above. 
 
 Due to the nature of the problem, no sample input or output files are provided. 
