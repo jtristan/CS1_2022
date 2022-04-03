@@ -35,15 +35,6 @@ Given a sequence of words written in elf language, and given the order of their 
 
 <h4> Samples </h4>
 
-[SAMPLE INPUT 1](input.txt)
+[SAMPLE INPUT](input.txt)
 
-[SAMPLE OUTPUT 1](output.txt)
-
-[SAMPLE INPUT 2](input2.txt)
-
-[SAMPLE OUTPUT 2](output2.txt)
-
-[SAMPLE INPUT 3](input3.txt)
-
-[SAMPLE OUTPUT 3](output3.txt)
-
+[SAMPLE OUTPUT](output.txt)
