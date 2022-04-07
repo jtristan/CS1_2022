@@ -1,5 +1,5 @@
-### Problem 1: 
-#### 1 Point 
+### Problem 1 (Bonus): 
+#### 2 Points 
 
 ___
 

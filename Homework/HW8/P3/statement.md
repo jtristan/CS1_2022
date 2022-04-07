@@ -1,5 +1,5 @@
 ### Problem 3: 
-#### 2 Points
+#### 10 Points
 
 ___
 
