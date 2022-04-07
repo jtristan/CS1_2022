@@ -19,7 +19,7 @@ Your solution must be in O(N * Log N). Slower solutions will be marked as incorr
 
 ###### Output Format (output to terminal / stdout):
 
-- Print the merged list.
+- Print the merged list, one entry per line.
 
 [SAMPLE INPUT](input.txt)
 
