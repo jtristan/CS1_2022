@@ -14,6 +14,24 @@ Reading these commands should cause your program to do the following, respective
 1. Create an empty set. 
 2. Add the value **x** to the set.
 3. Test whether **x** is in the set, printing <code>True</code> if so and <code>False</code> otherwise. 
+
+Please use the following hash function: 
+
+def hashFunction(self, data):
+
+        if type(data) == int:
+
+            return data * 123456
+
+        if type(data) == str:
+
+            value = 0
+
+            for each in data:
+
+                value += ord(each)
+
+            return value
  
 ###### Hint:
 While not required, it might be helpful for your own testing to implement a function <code> _ _ str_ _ </code> to print the set.
