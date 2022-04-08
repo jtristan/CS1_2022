@@ -4,9 +4,13 @@
 ---
 Implement merge sort.
 
-Merge sort is a divide and conquer algorithm that sorts an array by 1) splitting up the array in half, 2) sorting the halves, then 3) merging the two sorted arrays and returning the result (we implemented this merging function in HW5 P4). The function should call itself recursively when sorting the two halves of the array.
+Merge sort is a divide and conquer algorithm that sorts an array by 1) splitting up the array in half, 2) sorting the halves, and 3) merging the two sorted arrays and returning the result. You implemented such a merging function in HW5 P4 -- perhaps by glueing the arrays and then sorting them -- but in this setting you must be sure that merging is linear time. 
 
-Your solution must be in O(N * Log N). Slower solutions will be marked as incorrect.
+Your solution **must** be in O(N log N). Slower solutions will be marked as incorrect.
+
+###### Hint:
+
+It may be helpful to look at the recursive implementation of insertion sort in the notes (pg. 83). Merge sort is similar but involves a different 'divide' step and thus a slightly different 'conquer' step (the linear time merging of two sorted arrays). 
 
 ###### Examples:
 - For <code>A = [ 5, 3, 9, 1 ]</code>, the output should be:
