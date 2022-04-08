@@ -1,5 +1,5 @@
 ### Problem 1:
-#### 2 Points
+#### 5 Points
 
 ---
 Implement merge sort.
