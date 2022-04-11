@@ -4,7 +4,7 @@
 ---
 Implement merge sort.
 
-Merge sort is a divide and conquer algorithm that sorts an array by 1) splitting up the array in half, 2) sorting the halves, and 3) merging the two sorted arrays and returning the result. You implemented such a merging function in HW5 P4 -- perhaps by glueing the arrays and then sorting them -- but in this setting you must be sure that merging is linear time. 
+Merge sort is a divide and conquer algorithm that sorts an array by 1) splitting up the array in half, 2) sorting the halves (by calling merge sort on each half), and 3) merging the two sorted arrays and returning the result. You implemented such a merging function in HW5 P4 -- perhaps by glueing the arrays and then sorting them -- but in this setting you must be sure that merging is linear time. 
 
 Your solution **must** be in O(N log N). Slower solutions will be marked as incorrect.
 
